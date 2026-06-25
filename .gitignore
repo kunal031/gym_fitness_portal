@@ -1,0 +1,14 @@
+# Ignore python virtual environments anywhere in the project
+**/myenv/
+
+# Ignore all environment/secret files anywhere in the project
+**/.env
+
+# Ignore all python cache folders and compiled files anywhere
+**/__pycache__/
+*.py[cod]
+
+.DS_Store
+
+# Docker and container local state files
+gym_backend/docker-compose.yml
