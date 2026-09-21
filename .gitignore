@@ -1,5 +1,10 @@
 # Ignore python virtual environments anywhere in the project
 **/myenv/
+**/venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
 
 # Ignore all environment/secret files anywhere in the project
 **/.env
